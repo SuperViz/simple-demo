@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SuperViz - demo</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+      <link href="./src/styles.css" rel="stylesheet" />
+   </head>
+
+   <body>
+      <main id="app">
+         <section id="loader-section">
+            <div class="loader"></div>
+         </section>
+         <section id="content-section" class="hide hidden-menu">MY CONTENT</section>
+      </main>
+      <script type="module" src="https://unpkg.com/@superviz/sdk@latest"></script>
+      <script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/pubsub-js/1.9.4/pubsub.min.js"></script>
+      <script type="module" src="src/index.js"></script>
+   </body>
+</html>
